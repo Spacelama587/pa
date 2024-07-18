@@ -11,6 +11,7 @@ import { RevealBento } from './components/RevealBento'
 
 import { TextParallaxContentExample } from './components/TextParallaxContentExample'
 import VerticalAccordion from './components/VerticalAccordion'
+import ZPatternSection from './components/ZPatternSection'
 
 
 
@@ -21,12 +22,14 @@ function App() {
    <>
   <Navbar />
   <Header />
+    <ZPatternSection></ZPatternSection>
     <AuroraHero />
     <BouncyCardsFeatures />
 
     <TextParallaxContentExample />
     <ExampleWrapper />
     <VerticalAccordion />
+
     <RevealBento />
     <DragCloseDrawerExample />
    </>
